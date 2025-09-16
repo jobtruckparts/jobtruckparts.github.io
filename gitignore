@@ -1,0 +1,60 @@
+# ---- General OS/Editor cruft ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# ---- Editors/IDEs ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Build/Cache (if tools are added later) ----
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.sass-cache/
+coverage/
+tmp/
+_temp/
+*.map
+
+# ---- Static hosts/Platforms ----
+.vercel/
+.netlify/
+functions/
+
+# ---- Design assets ----
+*.psd
+*.ai
+*.sketch
+*.xcf
+
+# ---- Jekyll (not used, but ignore if added) ----
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# ---- Misc ----
+.env
+.env.*
+*.local
+
+# Keep these tracked:
+!.nojekyll
+!/favicon/
+!/images/
+!/css/
+!/js/
+!/index.html
+!/CNAME
+!/README.md
