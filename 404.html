@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found | Job Truck Parts</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <div class="padd_30">
+    <div class="full_bf">
+      <!-- header -->
+      <header>
+        <div class="head-top">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <!-- Logo -->
+              <div class="col-12 col-sm-4 col-md-3">
+                <div class="logo py-2 py-sm-3">
+                  <a href="index.html">
+                    <img src="images/logo.webp" alt="Job Truck Parts Logo">
+                  </a>
+                </div>
+              </div>
+
+              <!-- Hours banner -->
+              <div class="col-12 col-sm-8 col-md-9">
+                <div class="hours-banner">
+                  <span class="hours-title">We’re Open</span>
+                  <div class="hours-text">Mon–Sat: 8:00 AM – 10:00 PM</div>
+                  <div class="hours-text">Sun: Closed</div>
+                  <div class="hours-text">24/7 Service Upon Request</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+    </div>
+  </div>
+  <!-- end slider section -->
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main class="d-flex flex-column justify-content-center align-items-center text-center" style="min-height:70vh;">
+    <h1 class="display-3 fw-bold text-danger">404</h1>
+    <h2 class="mb-3">Oops! Page not found</h2>
+    <p class="mb-4">The page you're looking for might have been moved, renamed, or no longer exists.</p>
+    <a href="/" class="btn btn-primary">Back to Home</a>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="text-center py-4 bg-dark text-light">
+    <div class="copyright text_align_center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <p>
+              © <span id="year"></span> All Rights Reserved.
+              <span><a href="index.html" class="brand-link">Job Truck Parts</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // auto-update footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
